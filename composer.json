@@ -1,0 +1,28 @@
+{
+    "name": "pbxg33k/phpmd-code-climate-renderer",
+    "description": "A PHPMD renderer for outputing results in JSON compliant to Code Climate spec. Primary use for in GitLab CI/CD",
+    "type": "library",
+    "require": {
+        "phpmd/phpmd": "^2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oguzhan Uysal",
+            "email": "development@oguzhanuysal.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pbxg33k\\PhpmdCodeClimate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pbxg33k\\PhpmdCodeClimate\\Tests\\": "tests/"
+        }
+    }
+}
